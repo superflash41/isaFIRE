@@ -1,0 +1,28 @@
+# TeX
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.fls
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+
+# *.pdf
+
+.vscode/
+.idea/
+*.swp
+*~
+
+*~
+*.bak
+
+# python
+.venv/
+**/.env
+
+.DS_Store

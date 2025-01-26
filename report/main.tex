@@ -1,0 +1,72 @@
+
+% Preamble
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage{listings}          % For code snippets
+\usepackage{xcolor}            % For colored text and boxes
+\usepackage{tcolorbox}         % For nice looking boxes
+\usepackage{enumitem}          % For better lists
+\usepackage{tikz}              % For drawings and diagrams
+\usepackage{mathtools}         % Enhanced math tools
+\usepackage{tocloft}           % For customizing ToC
+\usepackage{etoolbox}          % For patching commands
+
+\graphicspath{{images/}}
+
+\newcommand{\courseTitle}{Deep Learning}
+\newcommand{\college}{Pontificia Universidad Católica del Perú}
+\newcommand{\faculty}{Facultad de Ciencias e Ingeniería}
+\newcommand{\courseCode}{1INF52}
+\newcommand{\semester}{2025-0}
+\newcommand{\noteDate}{\today}
+\newcommand{\authors}{
+    \begin{enumerate}
+        \item Cántaro Márquez, Patricia Natividad   \hfill 20210907
+        \item Nicho Manrique, Saymon Estefano       \hfill 20211866
+        \item Zegarra Barrenechea, Carlos Eduardo   \hfill 20216177
+    \end{enumerate}
+}
+
+% for important notes
+\newtcolorbox{important}[1]{
+    colback=red!5!white,
+    colframe=red!75!black,
+    title=\textbf{#1}
+}
+
+% header and footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\courseTitle}
+\cfoot{\thepage}
+
+\setlength{\parindent}{0pt}
+
+% Document
+\begin{document}
+
+    \include{contents/title}
+    \tableofcontents
+    \newpage
+    \include{contents/intro}
+    \include{contents/problem-statement}
+    \include{contents/sota}
+    \include{contents/theoretical}
+    
+    % \include{contents/model}
+    
+    % \include{contents/experimentation}
+    % \include{contents/conclusions}
+
+\end{document}
