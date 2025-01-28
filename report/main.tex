@@ -21,6 +21,7 @@
 \usepackage{mathtools}         % Enhanced math tools
 \usepackage{tocloft}           % For customizing ToC
 \usepackage{etoolbox}          % For patching commands
+\usepackage{parskip}
 
 \graphicspath{{images/}}
 
@@ -31,11 +32,11 @@
 \newcommand{\semester}{2025-0}
 \newcommand{\noteDate}{\today}
 \newcommand{\authors}{
-    \begin{enumerate}
-        \item Cántaro Márquez, Patricia Natividad   \hfill 20210907
-        \item Nicho Manrique, Saymon Estefano       \hfill 20211866
-        \item Zegarra Barrenechea, Carlos Eduardo   \hfill 20216177
-    \end{enumerate}
+    \begin{tabular}{@{}l@{\hspace{4em}}l@{}}
+        Cántaro Márquez, Patricia Natividad & 20210907 \\[0.5cm]
+        Nicho Manrique, Saymon Estefano & 20211866 \\[0.5cm]
+        Zegarra Barrenechea, Carlos Eduardo & 20216177
+    \end{tabular}
 }
 
 % for important notes
@@ -49,6 +50,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{\courseTitle}
+\lhead{\courseCode}
 \cfoot{\thepage}
 
 \setlength{\parindent}{0pt}
