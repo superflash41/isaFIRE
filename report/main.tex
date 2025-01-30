@@ -10,7 +10,6 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[margin=2.5cm]{geometry}
-\usepackage{hyperref}
 \usepackage{fancyhdr}
 
 \usepackage{listings}          % For code snippets
@@ -22,10 +21,13 @@
 \usepackage{tocloft}           % For customizing ToC
 \usepackage{etoolbox}          % For patching commands
 \usepackage{parskip}
-% add the package to make the elemnts of the elemnt be in spanish
 \usepackage[spanish]{babel}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{hyperref}
 
 \graphicspath{{images/}}
+\bibliographystyle{unsrt}
 
 \newcommand{\courseTitle}{Deep Learning}
 \newcommand{\college}{Pontificia Universidad Católica del Perú}
@@ -61,17 +63,19 @@
 % Document
 \begin{document}
 
-    \include{contents/title}
+    \input{contents/title}
     \tableofcontents
     \newpage
-    \include{contents/intro}
-    \include{contents/problem-statement}
-    \include{contents/sota}
-    \include{contents/theoretical}
-    
-    % \include{contents/model}
+    \input{contents/intro}
+    \input{contents/problem-statement}
+    \input{contents/sota}
+    \input{contents/theoretical}
+    \input{contents/model}
     
     % \include{contents/experimentation}
     % \include{contents/conclusions}
+
+    \newpage
+    \bibliography{../contents/references}
 
 \end{document}
