@@ -1,4 +1,35 @@
-# TeX
+# python / jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+.idea
+Thumbs.db
+
+# venv
+venv/
+.venv/
+env/
+.conda/
+env.yaml
+
+# logs
+*.log
+logs/
+experiments/
+
+# data
+data/Test
+data/Training
+
+# trained models
+models/*.h5
+models/*.ckpt
+**/*.keras
+**/*.h5
+
+# LaTeX
 *.aux
 *.log
 *.toc
@@ -12,20 +43,3 @@
 *.fdb_latexmk
 
 # *.pdf
-
-.vscode/
-.idea/
-*.swp
-*~
-
-*~
-*.bak
-
-# python
-.venv/
-**/.env
-
-# data
-data/
-
-.DS_Store

@@ -1,0 +1,36 @@
+
+# DenseNet training config
+epochs: 20
+batch_size: 64
+input_shape: [224, 224, 3]
+optimizer: "adam"
+learning_rate: 0.0001
+loss: "binary_crossentropy"
+metrics:
+  - "accuracy"
+
+# Data augmentation to improve generalization
+augmentation:
+  shear_range: 0.1
+  zoom_range: 0.2
+  horizontal_flip: true
+  rotation_range: 15
+  brightness_range: [0.8, 1.2]
+
+validation_split: 0.1
+
+# Early Stopping
+early_stopping:
+  monitor: "val_loss"
+  patience: 5  # allow some more epochs
+
+reduce_lr_on_plateau:
+  monitor: "val_loss"
+  factor: 0.1
+  patience: 3
+  min_lr: 0.00001
+
+output_dirs:
+  logs: "experiments/individual_models/densenet/logs"
+  checkpoints: "experiments/individual_models/densenet/checkpoints"
+  results: "experiments/individual_models/densenet/results"

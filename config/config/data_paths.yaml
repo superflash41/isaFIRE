@@ -1,0 +1,11 @@
+# main routes
+train_dir: "data/raw/Training"
+test_dir: "data/raw/Test"
+
+classes:
+  - "fire"
+  - "nofire"
+
+results_dir: "experiments/results"
+logs_dir: "experiments/logs"
+checkpoints_dir: "experiments/checkpoints"
