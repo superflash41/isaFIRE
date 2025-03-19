@@ -45,6 +45,6 @@ Trained models are also available on [Hugging Face](https://huggingface.co/super
 
 ## Documentation
 
-The project's final report with our research's explanation can be found in the [`report/`](report) folder
-and the presentation and poster can be found on the [`presentation/`](presentation) folder. 
+The project's final report with our research's explanation can be found in the [`report/`](report/out) folder
+and the presentation and poster can be found on the [`presentation/`](presentation/out) folder. 
 
