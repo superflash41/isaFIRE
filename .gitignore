@@ -41,5 +41,11 @@ models/*.ckpt
 *.blg
 *.synctex.gz
 *.fdb_latexmk
+*tex
+
+# LaTeX folders
+*/contents
+*/out
+*/images
 
 # *.pdf
