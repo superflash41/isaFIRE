@@ -23,9 +23,9 @@ We trained three CNNs via *transfer learning*, and combined their predictions in
 2. *Model Training*: 
    - trained each CNN individually with *Keras Tuner*-optimized hyperparameters
    - hyperparameters:
-     - **Xception**: $25$ unfrozen layers, $0.45$ dropout, $0.001$ L2, LR=$0.00541$  
-     - **DenseNet**: $20$ unfrozen layers, $0.35$ dropout, $0.001$ L2, LR=$0.00147$
-     - **ResNet**: $45$ unfrozen layers, $0.40$ dropout, $0.0005$ L2, LR=$0.00093$  
+     - **Xception**: $25$ unfrozen layers, $0.45$ dropout, $0.001$ L2, LR= $0.00541$  
+     - **DenseNet**: $20$ unfrozen layers, $0.35$ dropout, $0.001$ L2, LR= $0.00147$
+     - **ResNet**: $45$ unfrozen layers, $0.40$ dropout, $0.0005$ L2, LR= $0.00093$  
 3. *Ensemble*: merged predictions via simple averaging
 4. *Evaluation*: computed accuracy, F1-score, confusion matrices, and ROC-AUC
 
