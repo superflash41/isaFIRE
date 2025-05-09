@@ -13,7 +13,6 @@ This repository contains the code for our project, which is part of the course *
 
 We worked with the [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs) dataset.
 
----
 
 ## Pipeline
 
@@ -34,8 +33,6 @@ To run the pipeline we recommed having Python $3.8$+:
 chmod +x ./scripts/run.sh
 ./scripts/run.sh
 ```
-
----
 
 ## Final Models
 
