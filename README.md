@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-Deep learning has demonstrated exceptional performance in image analysis, particularly for detecting fire and smoke, outperforming many traditional techniques. This project introduces a deep learning model for real-time wildfire detection using drone-captured images, aimed at rapid and accurate identification of active fires.
+Deep learning has demonstrated exceptional performance in image analysis, particularly for detecting fire and smoke. This project introduces a deep learning model for real-time wildfire detection using drone-captured images, aimed at rapid and accurate identification of active fires.
 
 <!-- 
 This repository contains the code for our project, which is part of the course *1INF52 - Deep Learning* at [PUCP](https://www.pucp.edu.pe/).
