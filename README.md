@@ -1,4 +1,4 @@
-# Wildfire Classifier - *1INF52* Project
+# isaFIRE: Wildfire Detection Project
 
 <p align="center">
     <img src="https://img.shields.io/badge/Python-f9e2af?logo=python&logoColor=black" alt="Python" />
@@ -9,7 +9,9 @@
 
 Deep learning has demonstrated exceptional performance in image analysis, particularly for detecting fire and smoke, outperforming many traditional techniques. This project introduces a deep learning model for real-time wildfire detection using drone-captured images, aimed at rapid and accurate identification of active fires.
 
+<!-- 
 This repository contains the code for our project, which is part of the course *1INF52 - Deep Learning* at [PUCP](https://www.pucp.edu.pe/).
+-->
 
 We worked with the [FLAME](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs) dataset.
 
