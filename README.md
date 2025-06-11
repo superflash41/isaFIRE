@@ -44,7 +44,7 @@ Trained models are on [Hugging Face](https://huggingface.co/superflash41/fire-ch
 
 ## Documentation
 
-The project's final report with our research's explanation can be found in the [`report/`](report/) folder. Slides from the presentation and poster can be found on the [`presentation/`](presentation/) folder. 
+The project's working paper with our research's explanation can be found in [`preprint/`](paper/cps.pdf). Slides from the presentation and poster can be found on the [`presentation/`](presentation/) folder. 
 
 ## Acknowledgements
 
